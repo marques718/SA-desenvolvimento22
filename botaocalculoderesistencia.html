@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0>
+    <script src="botaocalculoderesistencia.js"></script>
+    <title>Document</title>
+</head>
+
+<button><a href="botaoassociacaoderesistencia.html">Associação de resistência</a></button>
+<!--botão Associação resistores -->
+<button><a href="botaodimencionamentoresistor.html">Dimensionamento dos resistores</a></button>
+<!--botão Dimencionamento resistores -->
+<button><a href="sa.html">Voltar</a></button>
+<!--botão voltar -->
+
+<br><br>
+
+<body>
+    <h1>Calculo de resistores</h1>
+    <!--Texto superior" -->
+
+
+    <img src="https://aprendendoeletrica.com/wp-content/uploads/2020/01/c%C3%B3digo-de-cores-resistor-5-faixas.jpg">
+    <div>
+        <br>
+        <div>Primeira linha:</div>
+        <select id="alternado" class="faixa1">>
+            <option value="0">Preto</option>
+            <option value="1">Marrom</option>
+            <option value="2">Vermelho</option>
+            <option value="3">Laranja</option>
+            <option value="4">Amarelo</option>
+            <option value="5">Verde</option>
+            <option value="6">Azul</option>
+            <option value="7">Violeta</option>
+            <option value="8">Cinza</option>
+            <option value="9">Branco</option>
+        </select>
+
+        <br><br>
+        <div>Segunda linha:</div>
+        <select id="alternado" class="faixa2">>
+            <option value="0">Preto</option>
+            <option value="1">Marrom</option>
+            <option value="2">Vermelho</option>
+            <option value="3">Laranja</option>
+            <option value="4">Amarelo</option>
+            <option value="5">Verde</option>
+            <option value="6">Azul</option>
+            <option value="7">Violeta</option>
+            <option value="8">Cinza</option>
+            <option value="9">Branco</option>
+
+        </select>
+
+        <br><br>
+        <div>Terceira linha:</div>
+        <select id="alternado" class="faixa3">>
+            <option value="0">Preto</option>
+            <option value="1">Marrom</option>
+            <option value="2">Vermelho</option>
+            <option value="3">Laranja</option>
+            <option value="4">Amarelo</option>
+            <option value="5">Verde</option>
+            <option value="6">Azul</option>
+            <option value="7">Violeta</option>
+            <option value="8">Cinza</option>
+            <option value="9">Branco</option>
+
+        </select>
+
+        <br><br>
+        <div>Quarta linha:</div>
+        <select id="alternado" class="multiplicador">
+            <option value="1" id="f1">Preto</option>
+            <option value="10" id="f2">Marrom</option>
+            <option value="100" id="f3">Vermelho</option>
+            <option value="1000" id="f4">Laranja</option>
+            <option value="10000" id="f5">Amarelo</option>
+            <option value="100000" id="f6">Verde</option>
+            <option value="1000000" id="f7">Azul</option>
+            <option value="10000000" id="f8">Violeta</option>
+            <option value=".1" id="f11">Dourado</option>
+            <option value=".01" id="f12">Prateado</option>
+
+        </select>
+
+        <br><br>
+        <div>Quinta linha:</div>
+        <select id="alternado" class="tolerancia">
+            <option value="1">Marrom</option>
+            <option value="2">Vermelho</option>
+            <option value="5">Verde</option>
+            <option value="0.25">Azul</option>
+            <option value="0.1">Violeta</option>
+            <option value="0.5">Cinza</option>
+            <option value="5">Dourado</option>
+            <option value="10">Prateado</option>
+
+        </select>
+
+        <br><br>
+
+        <input type="button" value="Calcular" onclick="calcularResistor()">
+
+        <p id="resultado"></p>
+        <!--Caixa de resultado" -->
+    </div>
+</body>
+
+<script src="./botaocalculoderesistencia.js"></script>
+
+<h5>Feito por Ian Marques e Diego Patzlaff</h5>
+
+</html>

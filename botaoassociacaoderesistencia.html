@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="sa.js"></script>
+    <title>Document</title>
+</head>
+
+<button><a href="botaocalculoderesistencia.html">Cálculo de resistência</a></button>
+<!--botão Calculo resistor -->
+<button><a href="botaodimencionamentoresistor.html">Dimensionamento dos resistores</a></button>
+<!--botão Dimencionamento resistores -->
+<button><a href="sa.html">Voltar</a></button>
+<!--botão voltar -->
+
+<br><br>
+
+<body>
+    <h1>Associação de resistores</h1>
+    <!--Título "Associação resistores" -->
+
+    <div>Resistores em paralelo:</div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoiJPKXRwxnMtspe_6qwQm9quGZMxcx10zPw&usqp=CAU">
+    <!--Título "Imagem resistores em paralelo" -->
+
+    <BR><BR>
+
+    Resistor 1 <input type="text" id="res1">
+    Resistor 2 <input type="text" id="res2">
+    <!--Título "Caixa de entrada de resistores" -->
+    <button onclick="calcularP()">Calcular</button>
+    <BR><BR>
+
+    <p id="resultado1">Resultado =</p>
+
+    <BR><BR>
+    <BR><BR>
+
+    <div>Resistores em série:</div>
+    <img src="https://aprendendoeletrica.com/wp-content/uploads/2019/02/resistores-em-serie-capa-e1594138678972.jpg"
+        <BR><BR>
+    <!--Título "Imagem resistores em série" -->
+
+    <BR><BR>
+
+    Resistor 1 <input type="text" id="res3">
+    Resistor 2 <input type="text" id="res4">
+    <!--Título "Caixa de entrada de resistores" -->
+
+    <button onclick="calcularS()">Calcular</button>
+    <BR><BR>
+
+    <p id="resultado2">Resultado =</p>
+
+
+</body>
+
+<script src="./botaoassociacaoderesistencia.js"></script>
+
+<h5>Feito por Ian Marques e Diego Patzlaff</h5>
+
+</html>
